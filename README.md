@@ -1,1 +1,2 @@
 # gb_cxx_difficult_moments
+Course from Geekbrains
