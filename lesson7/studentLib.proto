@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package studentLib;
+
+message FullName {
+    string surname = 1;
+    string name = 2;
+    optional string patronymic = 3;
+}
+
+message Student {
+    FullName fullName = 1;
+    repeated int32 grades = 2;
+    int32 averageGrade = 3;
+}
+
+message StudentsGroup {
+    repeated Student students = 1;
+}
